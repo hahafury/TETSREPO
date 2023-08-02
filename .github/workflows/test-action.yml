@@ -29,5 +29,5 @@ jobs:
       - name: Install dependencies
         if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: npm ci
-      - run: npx checkly test
+      - run: npx checkly test --record
       - run: npx checkly deploy --force
