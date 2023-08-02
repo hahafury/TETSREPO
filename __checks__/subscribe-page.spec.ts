@@ -89,9 +89,7 @@ const THANKS_BUTTON_SELECTOR = '.continue_btn_thanks';
 test.setTimeout(0);
 
 test('Subscribe page ', async ({ page }) => {
-  const response = await page.goto(TEST_URL, {
-    waitUntil: 'networkidle'
-  });
+  const response = await page.goto(TEST_URL);
   await expect(response?.status()).toBeLessThan(400);
   const emailInput = page.locator(EMAIL_INPUT_SELECTOR);
   const firstNameInput = page.locator(FIRSTNAME_INPUT_SELECTOR);
