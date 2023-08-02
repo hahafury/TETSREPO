@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Acta Deck Medium";
+  src: url("https://cdn.epoch.cloud/assets/fonts/ActaDeck-Medium.otf");
+}
+
+@font-face {
+  font-family: "Ringside Narrow";
+  src: url("https://cdn.epoch.cloud/assets/fonts/RingsideNarrow-Book.otf");
+}
+
+@font-face {
+  font-family: "Ringside Narrow Light";
+  src: url("https://cdn.epoch.cloud/assets/fonts/RingsideNarrow-Light.otf");
+}
+
+@font-face {
+  font-family: "Ringside Narrow Bold";
+  src: url("https://cdn.epoch.cloud/assets/fonts/RingsideNarrow-Bold.otf");
+}
+
+@font-face {
+  font-family: "Ringside Condensed Semibold";
+  src: url("https://cdn.epoch.cloud/assets/fonts/RingsideCondensed-Semibold.otf");
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: "Ringside Narrow";
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Acta Deck Medium";
+}
+
+.address-form label {
+  display: block
+}
+
+.header {
+  background-color: white;
+  height: 40px;
+  box-shadow: 5px 5px 10px 0px rgb(0 0 0 / 14%);
+  z-index: 10;
+  position: relative;
+}
+
+.step {
+  font-family: "Inter", sans-serif;
+}
+
+.submit button span {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+
+.save-proposition {
+  font-family: "Ringside Narrow Bold";
+}
+
+.stay-mobile-images {
+  background: linear-gradient(
+    236.13deg,
+    rgba(210, 244, 255, 0.5) 8.25%,
+    rgba(185, 226, 255, 0.5) 93.56%
+  );
+}
+
+@media (max-width: 640px) {
+  #widget4 {
+    width: 340px;
+    height: 220px;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

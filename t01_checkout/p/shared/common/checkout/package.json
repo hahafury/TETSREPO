@@ -1,0 +1,37 @@
+{
+  "name": "checkout_script",
+  "version": "1.0.0",
+  "description": "Shared checkout page logic that must be imported as a dependency",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "build": "NODE_ENV=development webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thevirtuelabs/subsgate.git"
+  },
+  "author": "Karen Liang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thevirtuelabs/subsgate/issues"
+  },
+  "homepage": "https://github.com/thevirtuelabs/subsgate#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.0",
+    "@babel/preset-env": "^7.19.0",
+    "@types/braintree-web": "^3.75.20",
+    "babel-loader": "^8.2.5",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.8.2",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "@stripe/stripe-js": "^1.35.0",
+    "braintree-web": "^3.87.0"
+  }
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ET Checkout JS</title>
+  <link rel="stylesheet" href="https://services.epoch.cloud/public-labs/files/static-assets/bootstrap.min.css">
+</head>
+
+<body>
+  <h1>How to use this JS</h1>
+  <!-- TODO -->
+  <p>Follow the below steps</p>
+  <ol>
+    <li>npm install</li>
+    <li>npm run build</li>
+  </ol>
+  <br>
+  <br>
+  <br>
+  <h1>Example fields:</h1>
+  <form action="submit" id="checkout-form">
+    <div id="cb-payment">
+      <div id="cb-card-fields">
+        <div class="row">
+          <div class="col-sm-12">
+            <div id="payment-using-hosted-field-integration">
+              <input type="hidden" name="payment_method_nonce" id="payment_method_nonce">
+              <div class="row">
+                <div class="col-sm-6 form-group">
+                  <div id="bt-card-number" class="form-control"></div>
+                  <p class="error number" style="display: none">Please enter a valid card number</p>
+                </div>
+                <div class="col-sm-6 form-group">
+                  <div id="bt-expiration-date" class="form-control"></div>
+                  <p class="error expirationDate" style="display: none">Please enter a valid expiration date (MM/YY)</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6 form-group">
+                  <div class="row">
+                    <div class="col-6">
+                      <div id="bt-cvv" class="form-control"></div>
+                    </div>
+                    <div class="col-6">
+                      <div id="cb-cvv">
+                        <span class="help-block">(Last 3-4 digits)</span>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="error cvv" style="display: none">Please enter a valid CVV</p>
+                </div>
+                <div class="col-sm-6 form-group">
+                  <div id="bt-postal-code" class="form-control"></div>
+                  <p class="error postalCode" style="display: none">Please enter a valid postal code</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subscription-create-error text-danger"></div>
+    <div class="paypal-subscription-create-error text-danger"></div>
+    <div class="existing-subscription-create-error text-danger"></div>
+    <div class="form-inline submit-group">
+      <div class="tos-text  above-submit">
+        <p>
+          By subscribing, you agree to the <a
+            href="https://help.theepochtimes.com/hc/en-us/articles/360052271792-Term-of-Service-Digital-Subscription"
+            class="tos-tos-link" target="_blank">Terms & Conditions</a>, including the <a
+            href="https://help.theepochtimes.com/hc/en-us/articles/360052271792-Term-of-Service-Digital-Subscription"
+            class="tos-cancel-link" target="_blank">Cancellation
+            and Refund Policy</a>.
+        </p>
+      </div>
+      <br>
+      <div class="form-group">
+        <input type="submit" id="purchase-btn" class="btn btn-primary g-recaptcha" value="Subscribe">
+      </div>
+      <div class="form-group">
+        <div class="cb-process loading-throbber-wrapper" data-cb-checkout='subscribe-process' style="display:none;">
+          Processing...</div>
+      </div>
+    </div>
+  </form>
+  <script src="../jquery-3.5.1.min.js"></script>
+  <script src="./example.js" type="module"></script>
+  <!-- <script src="./dist/bundle.js"></script> -->
+</body>
+</html>

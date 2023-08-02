@@ -1,0 +1,542 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+ <link rel="stylesheet" href="styles.css">
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LcmJLkZAAAAAMziOnaFrJkOV4ClF_H8OvcqvlyE"></script>
+<script type="text/javascript" src="https://subs.youmaker.com/lib/userId.bundle.js"></script>
+	<div class="header p-4 d-md-block d-none">
+		<div class="container">
+			<img src="https://www.theepochtimes.com/assets/themes/eet/images/logo_eet.svg" class="top-logo">
+		</div>
+	</div>
+
+
+	<div class="step-app" >
+		<div class="important-box py-1 py-lg-4 text-center">
+			<h2>Enjoy <b>unlimited access</b> to the top-ranking news app.</h2>
+		</div>
+
+		<div class="container mt-1 mt-lg-5">
+			<div class="row  justify-content-center">
+				<div class="col-12 col-md-8 col-lg-6 text-center">
+					<h2><b>Enter your phone number</b></h2>
+					<p class="d-none d-sm-block">and we will text you a download link to The Epoch Times app.</p>
+					<p class="d-block d-sm-none">and we will text you a download link. Or <a href="https://subscribe.theepochtimes.com/p/?page=mobile" target="_blank">download The Epoch Times app now</a>.</p>
+				</div>
+			</div>
+			<div class="row  justify-content-center">
+				<div class="col-12 col-md-6 col-lg-4">
+					<form id="sms-app-form">
+						<div>
+							<input class="form-control-lg form-control" id="phone-number-input" value="+1" onfocus="this.value = this.value;" /> 
+						</div>
+						<div class="my-2">
+							<button type="submit" class="btn btn-dark btn-block btn-lg btn-text-link">Text me the link</button>
+						</div>
+						<div class="my-2 sms-app-success">
+							<div class="alert alert-success">
+								You will receive a text message shortly. <a href="#" class="app-continue btn btn-success btn-block">Continue</a>
+							</div>
+						</div>
+						<div class="my-2 sms-app-error">
+							<div class="alert alert-warning">
+								Something went wrong. Please try again.
+							</div>
+						</div>
+					</form>
+					
+				</div>
+			</div>
+		
+			<div class="row  justify-content-center mt-3">
+				<div class="col-6 col-md-5 col-lg-3 d-none d-sm-block">
+					<img src="https://cdn.epoch.cloud/assets/static_assets/appps.png" class="w-100" />
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4">
+					<a href="https://subscribe.theepochtimes.com/p/?page=mobile" target="_blank"><img src="https://cdn.epoch.cloud/assets/static_assets/ratings.png" class="w-100" /></a>
+				</div>
+			</div>
+
+			<div class="row  justify-content-center">
+				<div class="col-12 col-md-6 col-lg-4">					
+					<div class="my-4">
+						<button class="btn btn-warning btn-block btn-gold btn-lg app-continue">Continue →</button>
+					</div>					
+				</div>
+			</div>
+		</div>
+			
+	</div>
+
+    <div id="welcome_back_over_wrapper_old" style="display:none">        
+		<div class="important-box py-1 py-lg-4 text-center">
+			<div class="row  justify-content-center">
+				<div class="col-12 col-md-11 col-lg-10">
+					<h2><strong>Invite Your Friends to The Epoch Times</strong></h2>
+				</div>
+			</div>			
+		</div>
+        <div class="container-fluid welcome_back_wrapper">		
+            <div id="welcome_back_new" class="row section-width mx-auto pt-1 pt-md-4 pb-4">
+                <div class="col-12 px-0 px-md-3">
+                    <div class="popupMain welcome-wrapper row justify-content-center">
+                        <div class="col-12  text-center px-0 px-md-3">                            
+							<div>
+								<div class="row">
+									<div class="col-12">
+										<p class="">Each free account created by your invite link will earn you <span class="font-weight-bold">20 points</span> ($2 Value), 5 free accounts will get you free months, e-book, magazines, gift cards or other exciting rewards from Rewards Portal.  </p>
+									</div>
+								</div>
+							</div>							
+                        </div>
+                        <form id="ishare-form">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="popupMain  mb-0">
+                                        <div class="share-start pl-4 pl-md-5 pr-4 pt-md-3 mb-1">
+                                            <div class="share-header-sec">
+                                            </div>
+                                            <div class="message-bold-black mt-2 text-center text-md-left">Input Your Friends' Emails:</div>
+                                        </div>
+
+                                        <div class="email-container row mr-auto mb-4 pl-4 pl-md-5 pr-4">
+                                            <div class="friend-emails col-12 col-sm-6 my-2">
+                                                <input placeholder="1st Friend's Email" class="friend-emails-input" name="email-input-1" id="email-input-1">
+                                                <div class="share-status-msg" id="email-input-1-status"></div>
+                                            </div>
+                                            <div class="friend-emails col-12 col-sm-6 my-2 ">
+                                                <input placeholder="2nd Friend's Email" class="friend-emails-input" name="email-input-2" id="email-input-2">
+                                                <div class="share-status-msg" id="email-input-2-status"></div>
+                                            </div>
+                                            <div class="friend-emails col-12 col-sm-6 my-2">
+                                                <input placeholder="3rd Friend's Email" class="friend-emails-input" name="email-input-3" id="email-input-3">
+                                                <div class="share-status-msg" id="email-input-3-status"></div>
+                                            </div>
+                                            <div class="friend-emails last-one col-12 col-sm-6 my-2">
+                                                <input placeholder="4th Friend's Email" class="friend-emails-input" name="email-input-4" id="email-input-4">
+                                                <div class="share-status-msg" id="email-input-4-status"></div>
+                                                <img class="add-more-button"  src="https://cdn.epoch.cloud/assets/static_assets/add-more-freind-share-plus.png"></img>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+								<div class="col-12 ">
+									<div class="popupMain pl-4 pl-md-5 pr-4 pt-0 mb-3">
+										<button class="share-btn btn btn-lg btn-block invite-btn mx-auto" type="submit">Invite</button>
+									</div>
+								</div>
+                                <div class="col-12">
+                                    <div class="popupMain darker-blue mb-3 text-center">
+                                        <div class="share-isp-sec pl-md-5 px-md-4 mb-0">
+                                            <div class="message-small-black mb-1">Don't remember your friend's email?
+                                                click below to open your address book to add them in.
+                                            </div>
+                                            <div class="email-icons">
+                                                <a href="#" class="cloudsponge-launch" data-cloudsponge-source="gmail">
+                                                    <img class="media-image mr-2 mb-2 mb-lg-0"
+                                                         src="https://cdn.epoch.cloud/assets/static_assets/popup_gmail-share-btn-bw.png">
+                                                </a>
+                                                <a href="#" class="cloudsponge-launch" data-cloudsponge-source="yahoo">
+                                                    <img class="media-image mr-2 mb-2 mb-lg-0"
+                                                         src="https://cdn.epoch.cloud/assets/static_assets/popup_yahoo-share-btn-bw.png">
+                                                </a>
+                                                <a href="#" class="cloudsponge-launch"
+                                                   data-cloudsponge-source="outlook">
+                                                    <img class="media-image mr-2 mb-2 mb-lg-0"
+                                                         src="https://cdn.epoch.cloud/assets/static_assets/popup_outlook-share-btn-bw.png">
+                                                </a>
+                                                <a href="#" class="cloudsponge-launch" data-cloudsponge-source="icloud">
+                                                    <img class="media-image mr-2 mb-2 mb-lg-0"
+                                                         src="https://cdn.epoch.cloud/assets/static_assets/popup_iclound-share-btn-bw.png">
+                                                </a>
+                                            </div>
+                                            <div class="invites-bulk-status my-3">
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="popupMain mb-3 invite-buttons">
+                                        <div class="row justify-content-center">
+                                            <div class="col-12 col-md-6 mb-4 mb-lg-0 mt-md-5">
+                                                <button class="btn btn-lg btn-gold btn-block invite-continue mx-auto" type="submit">Maybe next time →</button>
+                                            </div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<div id="welcome_back_over_wrapper" style="display:none">
+		<div class="row justify-content-center mt-5 mb-4">
+			<div class="col-6 text-center">
+				<img src="https://cdn.epoch.cloud/assets/static_assets/onboarding_flow_seats/truthShield.png" class="heartsImg"/>
+			</div>
+		</div>
+		<div class="row justify-content-center mt-5">
+			<div class="col-11 col-xl-6 text-center">
+				<p class="seats_subs_free_thin mx-auto">You hold the power to open someone's eyes to the truth by giving them access to The Epoch Times. 
+					Now is the perfect time to grant them access. Only the truth can protect them from manipulative, harmful agendas.
+				</p>
+			</div>
+		</div>
+		<div class="row justify-content-center mt-5">
+			<div class="col-11 col-xl-6 text-center">
+				<p class="seats_subs_free_black mb-2 mb-lg-0 mx-auto one_sub" style = "display: none">
+					You can <span class="seats_subs_free_orange">grant <span class="seats_no">1</span> subscription for free</span> to your friends and family.
+				</p>
+				<p class="seats_subs_free_black mb-2 mb-lg-0 mx-auto many_subs" style = "display: none">
+					You can <span class="seats_subs_free_orange">grant <span class="seats_no">2</span> subscriptions for free</span> to your friends and family.
+				</p>
+				<p class="seats_subs_free_thin mx-auto">
+					Your grantee will have unlimited access as long as your subscription stays active. You can enter any email address that has not yet been subscribed to The Epoch Times.
+				</p>
+			</div>
+		</div>
+	
+		<div class="row justify-content-center">
+			<div class="col-11 col-lg-5 text-center email_seat_group_wrapper">
+				
+			</div>
+		</div>
+		
+		<div class="row justify-content-center">
+			<div class="col-10 col-sm-7 col-md-5 col-lg-4 mt-md-5 mb-5 pt-5 pt-md-0 pb-5 mb-lg-0 pb-lg-0">
+				<button class="btn btn-lg btn-gold btn-block invite-continue mx-auto" type="submit">Maybe later →</button>
+			</div>                                            
+		</div>		
+    </div>
+
+	<div class="flexibile_billing_date ml-2 ml-md-5" style="display:none">
+		<div class="row">
+			<div class="col-12">
+				<div class="optional mt-4 mb-2"> Optional</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<div class="would_like">
+					You can set your preferred billing date.
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<div class="current_billing_is"></div>
+			</div>
+		</div>
+		<div class="row mt-4">
+			<div class="col-12 col-md-5 col-lg-4 col-xl-3 datepicker-col">
+				<div id="datepicker"></div>
+			</div>
+			<div class="col-12 col-md-6 col-xl-9 mt-4 mt-md-0 mt-xl-0">
+				<div class="today-charge">
+				</div>
+				<button type="button" class="btn btn-secondary mt-3 px-5 set-billing-date-btn btn-success" style="display:none">
+					<span class="spinner-grow spinner-grow-sm spinner-set" role="status" aria-hidden="true" style="display:none"></span>
+					Adjust billing date</button>
+				<div class="error-info text-danger mt-2"></div>
+				<div class="success-info text-success mt-2"></div>
+			</div>
+		</div>
+		<div class="row justify-content-center mt-xl-5">
+			<div class="col-6 col-xl-3 mt-xl-5">
+				<button class="btn btn-lg btn-gold btn-block flexibile-dates-continue-btn mx-auto mt-5 mb-5" type="submit">No, thanks</button>
+
+			</div>
+		</div>
+	</div>
+	
+	<div class="step-video" >
+		<div class="important-box py-1 py-lg-4 text-center">
+			<div class="row  justify-content-center">
+				<div class="col-12 col-md-11 col-lg-10">
+					<h2>And finally, <strong>watch a short video </strong>  with an important message from our team!</h2>
+				</div>
+			</div>			
+		</div>
+
+		<div class="row  justify-content-center my-5">
+			<div class="col-12 col-md-5 col-lg-5">
+				<div class="video-container">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/Qu7SlNcz168?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row  justify-content-center">
+			<div class="col-12 col-md-6 col-lg-4">				
+				<div class="my-4">
+					<button class="btn btn-warning btn-block btn-gold btn-lg final-continue-reading">Finish & continue reading</button>
+				</div>					
+			</div>
+		</div>
+	</div>
+
+
+	<div class="step-upgrade-offer pb-5 mb-5" >
+		
+		<div class="subs-info version-3" >
+
+			<div class="dialog-top py-3 upgrade-message">
+				<div class="container">
+					<div class="elmt-v3">
+						<div class="upgrade-message">
+							<div class="row justify-content-center align-items-center">
+								<div class="col-3 d-none d-sm-block text-center">
+									<img src="https://cdn.epoch.cloud/assets/static_assets/golden-68off-cut.png" class="w-100 float-sm-auto float-left mr-2 mr-sm-0"
+									style="max-width: 200px">
+								</div>
+								<div class="col-12 col-sm-9">
+									<h2 class="my-3 upgrade-message"><strong><span class="d-sm-block d-none">Get a BONUS 68% Discount: <br /></span>Upgrade now to an Annual Plan at our best price ever </strong>  and directly support independent, uncensored news in the time of big tech censorship.</h2>                            
+								</div>
+							</div>
+						</div>						
+					</div>
+				</div>
+			</div>
+
+			<div  class="success-message">
+				<div class="row justify-content-center align-items-center">                        
+					<div class="col-12 text-center mt-5">                            
+						<h2> <strong><span class="awesome">Awesome!</span> <br />✓ You have been upgraded to the Annual Plan. <br /></strong>Thank you for supporting traditional journalism!</h2>
+					</div>
+				</div>
+			</div>
+			
+			<div class="container upgrade-message">
+				
+
+				<div class="main-loader text-center d-none">
+					<div class="spinner-border text-secondary" role="status">
+						<span class="sr-only">Loading...</span>
+					</div>
+				</div>
+
+			
+
+
+				<div class="confirmation-dialog  mt-4" style="display: no2ne" >            
+					<div class="elmt-v3 normal-rate">
+						<div class="row justify-content-center align-items-center">
+							<div class="col-3 d-none d-sm-block text-center">
+								
+							</div>
+							<div class="col-12 col-sm-9">
+								<h4>✓ Save 68%: Just <span class="upgrade-price-text">$99</span> annually</h4>
+								This is our best price. 
+							</div>
+						</div>
+					</div>
+
+					<div class="elmt-v3 discounted-rate" style="display:none">
+						<div class="row justify-content-center align-items-center">
+							<div class="col-3 d-none d-sm-block text-center">
+								
+							</div>
+							<div class="col-12 col-sm-9">
+								<h4>✓ Save 68%: Just <span class="upgrade-price-text">$40</span> for the first year</h4>
+								This is our best price. After the first year, it renews at $99 per year.
+							</div>
+						</div>
+					</div>
+
+				
+					<div class="elmt-v2">
+						<div class="row justify-content-center mt-3 align-items-center">
+							
+							<div class="col-12 col-sm-12">
+								<h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="row  align-items-center mt-4">
+						<div class="col-3 d-none d-sm-block text-center">
+							<img src="https://cdn.epoch.cloud/assets/static_assets/one-year-clean.png" class="w-100 d-none"
+								style="max-width: 60px">
+						</div>
+						<div class="col-12 col-sm-9">
+							<h4>✓ 1 year + keep the time on your current plan</h4>
+							Your one-year digital-only plan will start today and the unused time of your current subscription will be added onto your annual plan.
+						</div>
+						<div class="d-none">
+							<div class="col-12 col-sm-9 mt-4">
+								<div class="row">
+									<div class="col-4 d-none d-sm-block">
+										<img src="https://cdn.epoch.cloud/assets/static_assets/gc_100_voucher.png" class="w-sm-75 w-50 float-right">
+									</div>
+									<div class="col-sm-8">
+										<h4>✓ $100 Voucher for Restaurant.com</h4>
+										We will email you link to claim your $100 voucher code that you can apply at thousands of restaurants across the country on Restaurant.com.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="row  align-items-center mt-4">
+						<div class="col-3 d-none d-sm-block text-center">
+							<img src="https://cdn.epoch.cloud/assets/static_assets/one-year-clean.png" class="w-100 d-none"
+								style="max-width: 60px">
+						</div>
+						<div class="col-12 col-sm-9">                    
+							<div class="form-check">
+								<input type="checkbox" class="form-check-input" id="agree-upgrade">
+								<label class="form-check-label" for="agree-upgrade">I agree to upgrade to the Annual Plan</label>
+								<div class="agree-error-msg">Please check the checkbox above.</div>
+							</div>
+						</div>
+					</div>
+
+					
+
+
+
+
+					<div class="row mt-2 mt-sm-3 mb-1">
+						<div class="col-12 offset-0 offset-sm-3 col-md-7 col-lg-5">
+							<button class="btn  btn-lg btn-block btn-warning btn-gold" id="upgrade-yearly-submit"> Yes, Upgrade To Annual Plan Now <span class="spinner-grow spinner-grow-sm submit-loader" style="display:none" role="status"
+									aria-hidden="true"></span> </button>
+
+							<div class="toc text-center mt-1 mt-sm-2">
+								<small>By doing this, you agree to our <href="https://service.theepochtimes.com/web/terms-digital-subscription/" target="_blank">Terms of Service</a>.</small><br />                        
+							</div>
+
+							<div class="error-message  mt-1" style="display: none">
+								<div class="row justify-content-center">
+									<div class="col-12">
+										<div class="alert alert-danger" role="alert">
+											<h3>We encountered an error :-(</h3>
+											<p>Please try again or contact customer service (917) 905-2080.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="row mt-4 mt-sm-4 mb-1">
+						<div class="col-12 offset-0 offset-sm-3 col-md-7 col-lg-5 text-center">
+							<a href="#" class="no-thanks offer-reject annualupgrade-continue">No, thank you</a>
+						</div>
+					</div>
+
+
+					
+					
+
+					
+
+					
+
+				</div>
+
+
+				<div class="not-eligable text-center mt-5" style="display: none">
+					<p>We are sorry but it seem's you are not eligible for this option.</p>
+				</div>
+
+			</div>
+
+			<div class="container success-message">         
+				<div class="row mt-2 mt-sm-3 mb-1 justify-content-center ">
+					<div class="col-12 col-sm-6 col-lg-4 ">
+						<button class="btn  btn-lg btn-block btn-warning btn-gold  annualupgrade-continue" > Continue →</button>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="step-update-name pb-5 mb-5" >
+		<div class="container mt-1 mt-lg-5">
+			<div class="row  justify-content-center">
+				<div class="col-12 col-md-8 col-lg-6 text-center">
+					<h2><b>Please enter your name</b></h2>
+					<p class="">so we can address you properly.</p>					
+				</div>
+			</div>
+			<div class="row  justify-content-center">
+				<div class="col-12 col-md-6 col-lg-4">
+					<form id="sms-app-form">
+						<div>
+							<input class="form-control-lg form-control my-2" id="update-name-first" placeholder="First name" /> 
+						</div>
+						<div>
+							<input class="form-control-lg form-control" id="update-name-last" placeholder="Last name" /> 
+						</div>
+						<div class="my-2">
+							<div class="alert alert-danger" id="update-name-error">
+								Please enter a valid name.
+							</div>
+						</div>
+						<div class="my-4">
+							<button class="btn  btn-lg btn-block btn-warning btn-gold  updatename-continue" > Continue →</button>
+						</div>
+						
+						
+					</form>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="step_survey_your_opinion pt-3 pt-lg-5 mt-lg-5">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12 col-lg-10 text-center">
+					<h2 class="survery_title">Your opinion can help us serve you better!</h2>
+					<p class="survey_top_text pb-3 pb-lg-4">Please share your thoughts with us and answer these 3 short questions (optional).</p>
+				</div>
+			</div>
+			<div class="row justify-content-center pb-4">
+				<div class="col-12 col-lg-6">
+					<h6 class="survey_question mb-0">What almost prevented you from subscribing?</h2>
+					<p class="survey_small_text mb-2">(i.e. what was your biggest concern or cause for hesitation)</p>
+					 <textarea class="form-control" placeholder= "Your answer" id="almost_prevented_you" rows="3"></textarea>
+				</div>
+			</div>
+			<div class="row justify-content-center pb-4">
+				<div class="col-12 col-lg-6">
+					<h6 class="survey_question">What helped you overcome any concerns or hesitations about subscribing today?</h2>
+					 <textarea class="form-control" placeholder= "Your answer" id="helped_you_overcome" rows="3"></textarea>
+				</div>
+			</div>
+			<div class="row justify-content-center pb-4">
+				<div class="col-12 col-lg-6">
+					<h6 class="survey_question">What are the top 3 features or benefits you expect to get with your subscription?</h2>
+					 <textarea class="form-control" placeholder= "Your answer" id="three_top_features" rows="3"></textarea>
+				</div>
+			</div>
+			<div class="row justify-content-center survey_your_opinion_continue_wrapper">
+				<div class="col-12 col-lg-6">
+					<button class="btn  btn-lg btn-block btn-warning btn-gold  survey_your_opinion_continue" > Continue</button>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div class="step-lists">
+		<div class="newsletter-lists-target">
+						
+		</div>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://services.epoch.cloud/public-labs/epoch-ai/et_utils.js"></script>
+	<script type="text/javascript" src="https://subs.youmaker.com/lib/userId.bundle.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <script src="scripts.js"></script>

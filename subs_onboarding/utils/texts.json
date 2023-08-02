@@ -1,0 +1,78 @@
+{
+    "setPasswordText": {
+        "title": "Congratulations and welcome to the Epoch Times family!",
+        "gift": "We’ve prepared a FREE gift for you at the end.",
+        "mostOfSubscription": "You can get the MOST out of your subscription by setting up your account NOW.",
+        "userName": "User name/email:",
+        "rememberEmail": "Please remember this email for future access!",
+        "minPasswordLength": "Min. Password Length: 5 Characters"
+    },
+    "annualPlanText": {
+        "title": "Opportunity to Save with an Annual Plan!",
+        "save": "Save 40%*",
+        "oldPrice": "$99/year",
+        "specialPrice": "$77/year",
+        "specialOffer": "Special offer for new subscribers!",
+        "agreeToUpgrade": "I agree to upgrade to the annual plan of $77 now.",
+        "upgradeBtn": "Yes, Upgrade to Annual Plan Now",
+        "noThankYou": "No, Thank You",
+        "note": "*(based on a monthly digital subscription plan of $9.99)",
+        "congratulations": "Congratulations! You’ve saved 40%.",
+        "emailSent": "An email has been sent to",
+        "details": " with the details of your upgrade."
+    },
+    "newslettersText": {
+        "title": "Manage Your Newsletter Preferences.",
+        "youCanControl": "You control which newsletters you receive or not receive.",
+        "youAreSubscribed": "You are subscribed to:",
+        "emailList": "email lists.",
+
+        "note": "You can enable or disable specific newsletters at any time from your Account Profile."
+    },
+    "mobileAppText": {
+        "title": "Stay Mobile with the Honest News You Love",
+        "powerApp": "Power up your news experience with our apps. Enter your cell phone number* below and we’ll text you a link to download our top-ranked news apps.",
+
+        "note": "*We’ll never sell or give out your number to any third party."
+    },
+    "freeSeatText": {
+        "title": "Give a free seat to anyone who'd appreciate fact-based news!",
+        "description": "Your grantee will have unlimited access as long as your subscription stays active. You can enter any email address that has not yet been subscribed to The Epoch Times."
+    },
+    "buttonsText": {
+        "submitBtn": "Submit and Continue",
+        "skip": "Skip and Continue",
+        "continueBtn": "Continue",
+        "back": "Back"
+    },
+    "subscriberTipsText": {
+        "title": "Last step–we have 5 quick tips to help you get the most out of your digital subscription.",
+        "watchTheVideo": "Watch the video below to start reading like a pro."
+    },
+    "errorsText": {
+        "message": "Something went wrong, please try again or call our customer service at 833-699-1888.",
+        "shortMessage": "Something went wrong, please try again."
+    },
+    "freeGiftText": {
+        "title": "Claim Your Free Gift",
+        "subtitle": "An issue of American Essence magazine",
+        "addressTitle": "Enter Address to Claim Gift",
+        "note": "*We’ll never sell or give out your address to any third party",
+        "name": "*Name",
+        "namesNote": "*We only ship within the United States.",
+        "addressLine1": "Address line 1",
+        "addressLine2": "Address line 2",
+        "city": "City",
+        "state": "State",
+        "zipcode": "Zipcode",
+        "submit": "Submit and Continue reading",
+        "skip": "I Don't Want a Free Gift"
+    },
+    "giftModalText": {
+        "title": "Don’t forget your FREE gift!",
+        "desc": "We’ll ship a gift (valued at $15) to your mailbox as soon as you finish setting up your account.",
+        "button": "Continue with Account Setup",
+        "skip": "Maybe Later"
+    }
+    
+}

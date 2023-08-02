@@ -1,0 +1,639 @@
+{
+    "productLinesInfo": {
+        "$7.99monthly": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "12",
+            "giftValueElection": "9",
+            "giftValueSum": "30",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "15.98",
+            "valueTotal": "45.98",
+            "valueCharge": "7.99",
+            "numberOfMonths": "1",
+            "paymentDelay": "1 month",
+            "planPeriodUnit": "month",
+            "planPeriod": 1
+        },
+
+        "$1for2months": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "12",
+            "giftValueElection": "9",
+            "giftValueSum": "30",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "15.98",
+            "valueTotal": "45.98",
+            "valueCharge": "1.00",
+            "numberOfMonths": "2",
+            "paymentDelay": "two months",
+            "planPeriodUnit": "month",
+            "planPeriod": 2
+        },
+
+        "$1for3months": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "12",
+            "giftValueElection": "9",
+            "giftValueSum": "30",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "23.97",
+            "valueTotal": "53.97",
+            "valueCharge": "1.00",
+            "numberOfMonths": "2",
+            "paymentDelay": "three months",
+            "planPeriodUnit": "month",
+            "planPeriod": 3
+        },
+
+        "$1for4months": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "24",
+            "giftValueElection": "9",
+            "giftValueSum": "42",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "31.96",
+            "valueTotal": "73.96",
+            "valueCharge": "1.00",
+            "numberOfMonths": "4",
+            "paymentDelay": "four months",
+            "planPeriodUnit": "month",
+            "planPeriod": 4
+        },
+
+        "$77": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "72",
+            "giftValueElection": "9",
+            "giftValueSum": "90",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "191.88",
+            "valueTotal": "281.88",
+            "valueCharge": "77",
+            "numberOfMonths": "12",
+            "paymentDelay": "1 year",
+            "planPeriodUnit": "year",
+            "planPeriod": 1
+        },
+
+
+        "bordersec_$1for2months": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "12",
+            "giftValueFISAPoster": "16",
+            "giftValueSum": "30",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "51.96",
+            "valueTotal": "81.96",
+            "valueCharge": "1.00",
+            "numberOfMonths": "2",
+            "paymentDelay": "two months",
+            "planPeriodUnit": "month",
+            "planPeriod": 2,
+            "planType": "digital"
+        },
+
+
+        "transgender_$1for2months": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "12",
+            "giftValueFISAPoster": "16",
+            "giftValueSum": "30",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "51.96",
+            "valueTotal": "81.96",
+            "valueCharge": "1.00",
+            "numberOfMonths": "2",
+            "paymentDelay": "two months",
+            "planPeriodUnit": "month",
+            "planPeriod": 2,
+            "planType": "digital"
+        },
+
+
+        "recession_$1for2months": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "12",
+            "giftValueFISAPoster": "16",
+            "giftValueSum": "30",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "51.96",
+            "valueTotal": "81.96",
+            "valueCharge": "1.00",
+            "numberOfMonths": "2",
+            "paymentDelay": "two months",
+            "planPeriodUnit": "month",
+            "planPeriod": 2,
+            "planType": "digital"
+        },
+
+
+        "jan6_$49for1year": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "12",
+            "giftValueFISAPoster": "16",
+            "giftValueSum": "30",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "99",
+            "valueTotal": "129",
+            "valueCharge": "49.50",
+            "numberOfMonths": "12",
+            "paymentDelay": "1 year",
+            "planPeriodUnit": "year",
+            "planPeriod": 1,
+            "planType": "digital"
+        },
+
+        "jan6_$1for2months": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "12",
+            "giftValueFISAPoster": "16",
+            "giftValueSum": "30",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "51.96",
+            "valueTotal": "81.96",
+            "valueCharge": "1.00",
+            "numberOfMonths": "2",
+            "paymentDelay": "two months",
+            "planPeriodUnit": "month",
+            "planPeriod": 2,
+            "planType": "digital"
+        },
+
+        "jan6_$99forYear": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "12",
+            "giftValueFISAPoster": "16",
+            "giftValueSum": "40",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "311.76",
+            "valueTotal": "351.76",
+            "valueCharge": "99",
+            "numberOfMonths": "12",
+            "paymentDelay": "1 year",
+            "planPeriodUnit": "year",
+            "planPeriod": 1,
+            "planType": "digital"
+        },
+
+        "vaccine_$1for2months": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "12",
+            "giftValueFISAPoster": "16",
+            "giftValueSum": "30",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "51.96",
+            "valueTotal": "81.96",
+            "valueCharge": "1.00",
+            "numberOfMonths": "2",
+            "paymentDelay": "two months",
+            "planPeriodUnit": "month",
+            "planPeriod": 2,
+            "planType": "digital"
+        },
+
+
+        "trumpraid_$1for2months": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "12",
+            "giftValueFISAPoster": "16",
+            "giftValueSum": "30",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "51.96",
+            "valueTotal": "81.96",
+            "valueCharge": "1.00",
+            "numberOfMonths": "2",
+            "paymentDelay": "two months",
+            "planPeriodUnit": "month",
+            "planPeriod": 2,
+            "planType": "digital"
+        },
+
+
+        "trumpraid_$99forYear": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "12",
+            "giftValueFISAPoster": "16",
+            "giftValueSum": "40",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "311.76",
+            "valueTotal": "351.76",
+            "valueCharge": "99",
+            "numberOfMonths": "12",
+            "paymentDelay": "1 year",
+            "planPeriodUnit": "year",
+            "planPeriod": 1,
+            "planType": "digital"
+        },
+
+
+        "foodcrisis_$1for2months": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "12",
+            "giftValueFISAPoster": "16",
+            "giftValueSum": "30",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "51.96",
+            "valueTotal": "81.96",
+            "valueCharge": "1.00",
+            "numberOfMonths": "2",
+            "paymentDelay": "two months",
+            "planPeriodUnit": "month",
+            "planPeriod": 2,
+            "planType": "digital"
+        },
+
+
+        "foodcrisis_$99forYear": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "12",
+            "giftValueFISAPoster": "16",
+            "giftValueSum": "40",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "311.76",
+            "valueTotal": "351.76",
+            "valueCharge": "99",
+            "numberOfMonths": "12",
+            "paymentDelay": "1 year",
+            "planPeriodUnit": "year",
+            "planPeriod": 1,
+            "planType": "digital"
+        },
+
+
+        "defendconst_$1for2months": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "12",
+            "giftValueFISAPoster": "16",
+            "giftValueSum": "30",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "51.96",
+            "valueTotal": "81.96",
+            "valueCharge": "1.00",
+            "numberOfMonths": "2",
+            "paymentDelay": "two months",
+            "planPeriodUnit": "month",
+            "planPeriod": 2,
+            "planType": "digital"
+        },
+
+
+        "defendconst_$99forYear": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "12",
+            "giftValueFISAPoster": "16",
+            "giftValueSum": "39",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "311.76",
+            "valueTotal": "350.76",
+            "valueCharge": "99",
+            "numberOfMonths": "12",
+            "paymentDelay": "1 year",
+            "planPeriodUnit": "year",
+            "planPeriod": 1,
+            "planType": "digital"
+        },
+
+
+        "durham_$1for2months": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "12",
+            "giftValueFISAPoster": "16",
+            "giftValueSum": "30",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "51.96",
+            "valueTotal": "81.96",
+            "valueCharge": "1.00",
+            "numberOfMonths": "2",
+            "paymentDelay": "two months",
+            "planPeriodUnit": "month",
+            "planPeriod": 2,
+            "planType": "digital"
+        },
+
+        "durham_$99forYear": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "12",
+            "giftValueFISAPoster": "16",
+            "giftValueSum": "39",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "311.76",
+            "valueTotal": "350.76",
+            "valueCharge": "99",
+            "numberOfMonths": "12",
+            "paymentDelay": "1 year",
+            "planPeriodUnit": "year",
+            "planPeriod": 1,
+            "planType": "digital"
+        },
+
+        "reg_$99forYear": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "12",
+            "giftValueFISAPoster": "16",
+            "giftValueSum": "39",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "191.88",
+            "valueTotal": "301.88",
+            "valueCharge": "99",
+            "numberOfMonths": "12",
+            "paymentDelay": "1 year",
+            "planPeriodUnit": "year",
+            "planPeriod": 1,
+            "planType": "digital"
+        },
+
+        "fisa_$1for2months": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "12",
+            "giftValueFISAPoster": "16",
+            "giftValueSum": "37",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "51.96",
+            "valueTotal": "88.96",
+            "valueCharge": "1.00",
+            "numberOfMonths": "2",
+            "paymentDelay": "two months",
+            "planPeriodUnit": "month",
+            "planPeriod": 2
+        },
+        "fisa_$1for4months": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "24",
+            "giftValueFISAPoster": "16",
+            "giftValueSum": "49",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "31.96",
+            "valueTotal": "80.96",
+            "valueCharge": "1.00",
+            "numberOfMonths": "4",
+            "paymentDelay": "four months",
+            "planPeriodUnit": "month",
+            "planPeriod": 4
+        },
+        "fisa_$77": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "72",
+            "giftValueFISAPoster": "16",
+            "giftValueSum": "97",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "191.88",
+            "valueTotal": "288.88",
+            "valueCharge": "77",
+            "numberOfMonths": "12",
+            "paymentDelay": "1 year",
+            "planPeriodUnit": "year",
+            "planPeriod": 1
+        },
+        "fisa_$99": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "72",
+            "giftValueFISAPoster": "16",
+            "giftValueSum": "97",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "191.88",
+            "valueTotal": "288.88",
+            "valueCharge": "99",
+            "numberOfMonths": "12",
+            "paymentDelay": "1 year",
+            "planPeriodUnit": "year",
+            "planPeriod": 1
+        },
+        "spygate_$99": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "72",
+            "giftValueFISAPoster": "16",
+            "giftValueSum": "99",
+            "giftValueGiftCard": "0",
+            "valueDigitalSubs": "311.76",
+            "valueTotal": "410.76",
+            "valueCharge": "99",
+            "numberOfMonths": "12",
+            "paymentDelay": "1 year",
+            "planPeriodUnit": "year",
+            "planPeriod": 1,
+            "planType": "digital"
+        },
+
+
+
+        "10giftcard_$1for4months": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "24",
+            "giftValueElection": "9",
+            "giftValueGiftCard": "10",
+            "giftValueSum": "52",
+            "valueDigitalSubs": "31.96",
+            "valueTotal": "83.96",
+            "valueCharge": "1.00",
+            "numberOfMonths": "4",
+            "paymentDelay": "four months",
+            "planPeriodUnit": "month",
+            "planPeriod": 4
+        },
+
+        "$1for2months_fairelection": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "12",
+            "giftValueInfoGraphicFraud": "5",
+            "giftValueInfoGraphicAtlanta": "5",
+            "giftValueDocumentary": "5",
+            "giftValueGiftCard": "0",
+            "giftValueSum": "36",
+            "valueDigitalSubs": "15.98",
+            "valueTotal": "51.98",
+            "valueCharge": "1.00",
+            "numberOfMonths": "2",
+            "paymentDelay": "two months",
+            "planPeriodUnit": "month",
+            "planPeriod": 2
+        },
+
+
+        "$1for3months_fairelection": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "18",
+            "giftValueInfoGraphicFraud": "5",
+            "giftValueInfoGraphicAtlanta": "5",
+            "giftValueDocumentary": "5",
+            "giftValueGiftCard": "0",
+            "giftValueSum": "42",
+            "valueDigitalSubs": "23.97",
+            "valueTotal": "65.97",
+            "valueCharge": "1.00",
+            "numberOfMonths": "3",
+            "paymentDelay": "three months",
+            "planPeriodUnit": "month",
+            "planPeriod": 3
+        },
+
+        "$1for3months_promo_roman": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "18",
+            "giftValueInfoGraphicFraud": "5",
+            "giftValueInfoGraphicAtlanta": "5",
+            "giftValueDocumentary": "5",
+            "giftValueGiftCard": "0",
+            "giftExtraMonths": "7.99",
+            "giftValueSum": "49.99",
+            "valueDigitalSubs": "15.98",
+            "valueTotal": "65.97",
+            "valueCharge": "1.00",
+            "numberOfMonths": "3",
+            "paymentDelay": "three months",
+            "planPeriodUnit": "month",
+            "planPeriod": 3
+        },
+
+        "$1for4months_fairelection": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "24",
+            "giftValueInfoGraphicFraud": "5",
+            "giftValueInfoGraphicAtlanta": "5",
+            "giftValueDocumentary": "5",
+            "giftValueGiftCard": "0",
+            "giftValueSum": "48",
+            "valueDigitalSubs": "31.96",
+            "valueTotal": "79.96",
+            "valueCharge": "1.00",
+            "numberOfMonths": "4",
+            "paymentDelay": "four months",
+            "planPeriodUnit": "month",
+            "planPeriod": 4
+        },
+
+        "$77_fairelection": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "72",
+            "giftValueInfoGraphicFraud": "5",
+            "giftValueInfoGraphicAtlanta": "5",
+            "giftValueDocumentary": "5",
+            "giftValueGiftCard": "0",
+            "giftValueSum": "96",
+            "valueDigitalSubs": "191.88",
+            "valueTotal": "287.88",
+            "valueCharge": "77",    
+            "numberOfMonths": "12",
+            "paymentDelay": "1 year",
+            "planPeriodUnit": "year",
+            "planPeriod": 1
+        },
+
+
+        "10giftcard_$1for4months_fairelection": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "24",
+            "giftValueElection": "15",
+            "giftValueGiftCard": "10",
+            "giftValueSum": "58",
+            "valueDigitalSubs": "31.96",
+            "valueTotal": "89.96",
+            "valueCharge": "1.00",
+            "numberOfMonths": "4",
+            "paymentDelay": "four months",
+            "planPeriodUnit": "month",
+            "planPeriod": 4
+        },
+
+        "10giftcard_$1for2months_fairelection": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "12",
+            "giftValueElection": "15",
+            "giftValueGiftCard": "10",
+            "giftValueSum": "46",
+            "valueDigitalSubs": "15.98",
+            "valueTotal": "61.98",
+            "valueCharge": "1.00",
+            "numberOfMonths": "2",
+            "paymentDelay": "two months",
+            "planPeriodUnit": "month",
+            "planPeriod": 2
+        },
+
+        "10epochcredit_$1for2months_fairelection": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "12",
+            "giftValueElection": "15",
+            "giftValueGiftCard": "10",
+            "giftValueSum": "46",
+            "valueDigitalSubs": "15.98",
+            "valueTotal": "61.98",
+            "valueCharge": "1.00",
+            "numberOfMonths": "2",
+            "paymentDelay": "two months",
+            "planPeriodUnit": "month",
+            "planPeriod": 2
+        },
+
+
+
+        "15giftcard_$77for1year_fairelection": {
+            "giftValueSpecterEbook": "9",
+            "giftValueCrosswords": "24",
+            "giftValueElection": "15",
+            "giftValueGiftCard": "15",
+            "giftValueSum": "63",
+            "valueDigitalSubs": "192",
+            "valueTotal": "255",
+            "valueCharge": "77",
+            "numberOfMonths": "12",
+            "paymentDelay": "1 year",
+            "planPeriodUnit": "year",
+            "planPeriod": 1
+        }
+
+
+
+    },
+
+    "productTypes": {
+        "digitalonly_7_99_monthly": "$7.99monthly",
+        "digitalonly_1usd_2_month_trial": "$1for2months_fairelection",
+        "digitalonly_1usd_3_month_trial": "$1for3months_promo_roman",
+        "digitalonly_1usd_4_month_trial": "$1for4months",
+        "digitalonly_77_yearly": "$77_fairelection",
+
+        "digitalonly_fullsubscription_99_yearly": "reg_$99forYear",
+
+        "digitalonly_bordersec_1usd_2_month_trial": "bordersec_$1for2months",
+
+        "digitalonly_transgender_1usd_2_month_trial": "transgender_$1for2months",
+
+        "digitalonly_recession_1usd_2_month_trial": "recession_$1for2months",
+
+        "digitalonly_jan6_1usd_2_month_trial": "jan6_$1for2months",
+        "digitalonly_jan6_fullsubscription_99_yearly": "jan6_$99forYear",
+
+        "digitalonly_jan6_49_1year_trial_etv": "jan6_$49for1year",
+
+        "digitalonly_vaccine_1usd_2_month_trial": "vaccine_$1for2months",
+
+        "digitalonly_trumpraid_1usd_2_month_trial": "trumpraid_$1for2months",
+        "digitalonly_trumpraid_fullsubscription_99_yearly": "trumpraid_$99forYear",
+
+        "digitalonly_foodcrisis_1usd_2_month_trial": "foodcrisis_$1for2months",
+        "digitalonly_foodcrisis_fullsubscription_99_yearly": "foodcrisis_$99forYear",
+
+        "digitalonly_defendconst_1usd_2_month_trial": "defendconst_$1for2months",
+        "digitalonly_defendconst_fullsubscription_99_yearly": "defendconst_$99forYear",
+
+        "digitalonly_durham_1usd_2_month_trial": "durham_$1for2months",
+        "digitalonly_durham_fullsubscription_99_yearly": "durham_$99forYear",
+
+        "digitalonly_fisa_1usd_2_month_trial": "fisa_$1for2months",
+        "digitalonly_signed_spygate_fullsubscription_99_yearly": "spygate_$99",
+        "digitalonly_fisa_1usd_4_month_trial": "fisa_$1for4months",
+        "digitalonly_fisa_77_yearly": "fisa_$77",
+        "digitalonly_fisa_fullsubscription_99_yearly": "fisa_$99",
+
+        "digitalonly_1usd_4_month_trial_10giftcard": "10giftcard_$1for4months",
+
+        "digitalonly_1usd_4_month_trial_t1": "$1for4months_fairelection",
+        "digitalonly_1usd_2_month_trial_10giftcard_fairelection": "10giftcard_$1for2months_fairelection",
+        "digitalonly_1usd_4_month_trial_10giftcard_fairelection": "10giftcard_$1for4months_fairelection",
+
+        "digitalonly_77_yearly_15giftcard_fairelection": "15giftcard_$77for1year_fairelection",
+
+        "digitalonly_1usd_2_month_trial_10epochcredit_fairelection": "10epochcredit_$1for2months_fairelection"
+
+    }
+}
