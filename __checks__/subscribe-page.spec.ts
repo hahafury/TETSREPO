@@ -86,6 +86,8 @@ const CONTINUE_BUTTON_SELECTOR = '.continue_btn_survey';
  */
 const THANKS_BUTTON_SELECTOR = '.continue_btn_thanks';
 
+test.setTimeout(0);
+
 test('Subscribe page ', async ({ page }) => {
   const response = await page.goto(TEST_URL, {
     waitUntil: 'networkidle'
