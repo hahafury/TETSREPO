@@ -5,13 +5,13 @@ on:
     branches:
       - main
 
-env:
-  CHECKLY_ACCOUNT_NAME: ${{ secrets.E2E_CHECKLY_ACCOUNT_NAME }}
-  CHECKLY_ACCOUNT_ID: ${{ secrets.E2E_CHECKLY_ACCOUNT_ID }}
-  CHECKLY_API_KEY: ${{ secrets.E2E_CHECKLY_API_KEY }}
-
 jobs:
   test:
+    environment: testing
+    env:
+      CHECKLY_ACCOUNT_NAME: ${{ secrets.E2E_CHECKLY_ACCOUNT_NAME }}
+      CHECKLY_ACCOUNT_ID: ${{ secrets.E2E_CHECKLY_ACCOUNT_ID }}
+      CHECKLY_API_KEY: ${{ secrets.E2E_CHECKLY_API_KEY }}
     strategy:
       matrix:
         os: [ubuntu-latest]
